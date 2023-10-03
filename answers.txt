@@ -8,4 +8,16 @@ commit that occured after the user branched out. In summary, the rebase takes ch
 in the feature branches and updates the start of another branch. The difference between
 merge and rebase is that the merge is non-linear in terms of the history of both branches
 as the history of both the branches is maintained as-is. The rebase maintains the linear
-branch history by moving the branch to a new base commit at the start.
+branch history by moving the branch to a new base commit at the start.\
+
+What is a remote repository?
+A remote repository is a single central online repository
+that is seen and accessed by different project collaborators.
+The remote repository also has a versioning history similiar
+to that of a local repository. A remote repository is a project
+version that is hosted on an online database / network location
+that allows for project collaborators to access a shared
+repository from different places. Therefore the remote
+repository acts as a centralized storage server space for the
+codebase facilitating collaboration and backups of the project
+stable version information that is a tracked location for code.
